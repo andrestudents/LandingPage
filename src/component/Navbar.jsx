@@ -3,19 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { navItems } from "../constant";
 
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
- * Asu is a functional component that renders the navigation bar.
- *
- * The component handles the state of the mobile drawer (the menu that appears on small screens)
- * and toggles it when the user clicks on the menu icon.
- *
- * The component renders the logo, the navigation items from the constants, the login and register buttons
- * and the mobile drawer.
- *
- * @returns {React.ReactElement} The rendered navigation bar.
- */
-/*******  33bb33e2-7961-4e2e-8372-5ab5ce9345ff  *******/ const Asu = () => {
+const Asu = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
