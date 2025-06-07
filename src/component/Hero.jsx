@@ -1,21 +1,20 @@
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video1.mp4";
 import img from "../assets/img.webp";
 const Hero = () => {
     return (
-        <div className="flex flex-col items-center shadow-sm shadow-white">
+        <div className="flex flex-col items-center shadow-sm shadow-white ">
 
             {/* title */}
-            <div className="flex justify-center">
-                <div className="flex flex-col items-center ">
+            <div className="flex flex-col lg:flex-row justify-center items-center mt-10 gap-8 px-4 ">
+                <div className="flex flex-col items-center text-center max-w-xl">
                     <h1 className="text-2xl text-center sm:text-6xl lg:text-5xl tracking-wide ">
-                        LANDING PAGE BUILDERS
+                        LANDING PAGE  <br />
+                        BUILDERS FOR <br />
                         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
                             {" "}
-                            FOR YOUR BUSINESS
+                            YOUR BUSINESS
                         </span>
                     </h1>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center mt-6 space-x-4">
                         <a
                             href="#"
                             className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
@@ -28,8 +27,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <img className="rounded-lg w-3/4 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4" src={img} alt="img" />
-
+                <img className="rounded-lg w-full max-w-md border border-orange-700 shadow-sm shadow-orange-400" src={img} alt="img" />
             </div>
 
 
