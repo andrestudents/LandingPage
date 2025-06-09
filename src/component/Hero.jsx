@@ -1,34 +1,53 @@
 import img from "../assets/img.webp";
+import landing from "../assets/landing.mp4";
+import file from "../assets/file.mp4";
 const Hero = () => {
     return (
-        <div className="flex flex-col items-center shadow-sm shadow-white ">
+        <div className="flex flex-col items-center  ">
 
             {/* title */}
-            <div className="flex flex-col lg:flex-row justify-center items-center mt-10 gap-8 px-4 ">
-                <div className="flex flex-col items-center text-center max-w-xl">
-                    <h1 className="text-2xl text-center sm:text-6xl lg:text-5xl tracking-wide ">
-                        LANDING PAGE  <br />
-                        BUILDERS FOR <br />
-                        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
-                            {" "}
-                            YOUR BUSINESS
-                        </span>
-                    </h1>
-                    <div className="flex justify-center mt-6 space-x-4">
-                        <a
-                            href="#"
-                            className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+            <div className="w-full mt-10 px-4">
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+                    {/* TEXT */}
+                    <div className="flex-1 text-center lg:text-left">
+                        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-wide leading-tight">
+                            LANDING PAGE <br />
+                            BUILDERS FOR <br />
+                            <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+                                YOUR BUSINESS
+                            </span>
+                        </h1>
+                        <div className="flex justify-center lg:justify-start mt-6 space-x-4">
+                            <a
+                                href="#"
+                                className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-6 rounded-md text-white font-semibold hover:-translate-y-1 "
+                            >
+                                Start for free
+                            </a>
+                            <a
+                                href="#"
+                                className="py-3 px-6 rounded-md border font-semibold hover:-translate-y-1 "
+                            >
+                                Documentation
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* VIDEO */}
+                    <div className="flex-1 w-full">
+                        <video
+                            autoPlay
+                            loop
+                            muted
+                            className="w-full h-auto rounded-lg border border-orange-700 shadow-md shadow-orange-400"
                         >
-                            Start for free
-                        </a>
-                        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-                            Documentation
-                        </a>
+                            <source src={file} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
-
-                <img className="rounded-lg w-full max-w-md border border-orange-700 shadow-sm shadow-orange-400" src={img} alt="img" />
             </div>
+
 
 
             {/* description */}
