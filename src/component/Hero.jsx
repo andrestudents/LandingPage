@@ -34,12 +34,13 @@ const Hero = () => {
                     </div>
 
                     {/* VIDEO */}
-                    <div className="flex-1 w-full">
+                    <div className="flex-1 w-full rotate-25">
                         <video
                             autoPlay
                             loop
                             muted
-                            className="w-full h-auto rounded-lg border border-orange-700 shadow-md shadow-orange-400"
+                            className="w-full h-auto rounded-lg border border-orange-700 
+             shadow-[0_0_30px_rgba(255,255,200,0.7)] shadow-orange-400 mx-2 my-4"
                         >
                             <source src={file} type="video/mp4" />
                             Your browser does not support the video tag.
