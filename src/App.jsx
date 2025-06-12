@@ -9,9 +9,8 @@ const App = () => {
 
             <div className="max-w-7xl mx-auto pt-20 px-6">
                 <Hero />
-                <Template />
                 <FeatureSection />
-
+                <Template />
             </div>
         </>
     );

@@ -31,18 +31,17 @@ function Template() {
                     <div className="w-full  p-4 rounded-md shadow-md">
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                             {pictures.map((picture, index) => (
-                                <div key={index} class="w-64 h-64 overflow-hidden group relative shadow-md hover:shadow-2xl">
-                                    <a href="#" >
+                                <div key={index} class="w-64 h-64 overflow-hidden group relative shadow-md hover:shadow-2xl hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,200,0.7)] shadow-orange-400 mx-2 my-4">
+                                    <div >
                                         <img
                                             src={picture.img}
                                             alt="Scroll image"
-                                            class="transform group-hover:translate-y-[-50%] transition-transform duration-[3000ms] ease-in-out"
+                                            class="transform group-hover:translate-y-[-50%] transition-transform duration-[3000ms] ease-in-out "
                                         />
-                                    </a>
+                                    </div>
+                                    <a href="#" className="hover cursor-pointer absolute bottom-0 left-0 right-0 bg-white text-black text-center text-blue-600 font-semibold py-2 opacity-0 group-hover:opacity-100 transition-opacity">USE TEMPLATE</a>
                                 </div>
                             ))}
-
-
 
                         </div>
                     </div>

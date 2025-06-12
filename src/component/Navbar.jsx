@@ -28,7 +28,7 @@ const Asu = () => {
           {/* ITEMNAVBAR YANG DIAMBIL DARI CONSTANTS */}
           <ul className="hidden lg:flex ml-14 space-x-12  text-xl text-white ">
             {navItems.map((item, index) => (
-              <li key={index} className="hover:-translate-y-1">
+              <li key={index} className="hover:-translate-y-1 ">
                 <a href={item.href} className="hover:transition border-b-4 border-transparent hover:border-white rounded-xl py-2 px-3"> {item.label}</a>
               </li>
             ))}

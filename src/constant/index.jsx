@@ -97,4 +97,8 @@ export const pictures = [
         img: "/image/8.jpg",
 
     },
+    {
+        img: "/image/9.jpg",
+
+    },
 ]
