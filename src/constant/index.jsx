@@ -101,9 +101,21 @@ export const pictures = [
         img: "/image/9.jpg",
 
     },
+    {
+        img: "/image/1.jpg",
+
+    },
+    {
+        img: "/image/2.jpg",
+
+    },
+    {
+        img: "/image/3.jpg",
+
+    },
 ]
 
-export const pricingOptions = [
+export const pricings = [
     {
         title: "Free",
         price: "$0",
@@ -134,4 +146,28 @@ export const pricingOptions = [
             "Private Mode",
         ],
     },
+];
+
+export const resourcesLinks = [
+    { href: "#", text: "Getting Started" },
+    { href: "#", text: "Documentation" },
+    { href: "#", text: "Tutorials" },
+    { href: "#", text: "API Reference" },
+    { href: "#", text: "Community Forums" },
+];
+
+export const platformLinks = [
+    { href: "#", text: "Features" },
+    { href: "#", text: "Supported Devices" },
+    { href: "#", text: "System Requirements" },
+    { href: "#", text: "Downloads" },
+    { href: "#", text: "Release Notes" },
+];
+
+export const communityLinks = [
+    { href: "#", text: "Events" },
+    { href: "#", text: "Meetups" },
+    { href: "#", text: "Conferences" },
+    { href: "#", text: "Hackathons" },
+    { href: "#", text: "Jobs" },
 ];

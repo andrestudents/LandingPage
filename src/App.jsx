@@ -2,6 +2,8 @@ import Asu from "./component/Navbar.jsx";
 import Hero from "./component/Hero.jsx";
 import FeatureSection from "./component/Feature.jsx";
 import Template from "./component/Template.jsx";
+import Pricing from "./component/Pricing.jsx";
+import Footer from "./component/Footer.jsx";
 const App = () => {
     return (
         <>
@@ -11,6 +13,8 @@ const App = () => {
                 <Hero />
                 <FeatureSection />
                 <Template />
+                <Pricing />
+                <Footer />
             </div>
         </>
     );
