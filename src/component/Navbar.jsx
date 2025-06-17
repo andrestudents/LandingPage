@@ -48,7 +48,7 @@ const Asu = () => {
           </div>
 
           <div className="lg:hidden md:flex flex-col justify-end ">
-            <button onClick={toggleNavbar} className="bg-blue-500 hover:bg-blue-600 text-white p-2 rounded">
+            <button onClick={toggleNavbar} className="bg-orange-500 hover:bg-blue-600 text-white p-2 rounded">
               {mobileDrawerOpen ? <X /> : <Menu />}
             </button>
           </div>
