@@ -2,6 +2,7 @@ import logooo from "../assets/logooo.png";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { navItems } from "../constant";
+import { Link } from "react-router-dom";
 
 const Asu = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -36,9 +37,9 @@ const Asu = () => {
 
           {/* LOGIN REGISTER */}
           <div className="hidden lg:flex justify-center space-x-12 items-center text-xl ">
-            <a href="#" className="py-2 px-3 border rounded-md hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,204,0,0.4)]">
-              Login
-            </a>
+            <button className="py-2 px-3 border rounded-md hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,204,0,0.4)]">
+              <Link to="/login">Sign In</Link>
+            </button>
             <a
               href="#"
               className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,204,0,0.4)]"

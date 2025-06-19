@@ -6,7 +6,7 @@ const FormLogin = () => {
         event.preventDefault()
         localStorage.setItem("email", event.target.email.value)
         localStorage.setItem("password", event.target.password.value)
-        window.location.href = "/products"
+        window.location.href = "/"
     }
 
     return (
@@ -23,7 +23,7 @@ const FormLogin = () => {
                 placeholder="Password"
                 name="password"
             />
-            <Button type="submit">LOGIN</Button>
+            <Button type="submit">Sign In</Button>
 
         </form>
     )
