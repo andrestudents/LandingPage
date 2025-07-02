@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Ubah import di sini
 import LoginPage from './pages/login.jsx';
-
+import RegisterPage from './pages/regrister.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,10 +15,10 @@ const router = createBrowserRouter([
     path: '/login',
     element: <LoginPage />,
   },
-  // {
-  //   path: '/register',
-  //   element: <RegisterPage />,
-  // },
+  {
+    path: '/register',
+    element: <RegisterPage />,
+  },
 ]);
 
 // Render aplikasi

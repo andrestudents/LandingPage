@@ -40,12 +40,10 @@ const Asu = () => {
             <button className="py-2 px-3 border rounded-md hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,204,0,0.4)]">
               <Link to="/login">Sign In</Link>
             </button>
-            <a
-              href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,204,0,0.4)]"
+            <button className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,204,0,0.4)]"
             >
-              Sign Up
-            </a>
+              <Link to="/register">Sign Up</Link>
+            </button>
           </div>
 
           <div className="lg:hidden md:flex flex-col justify-end ">
@@ -56,7 +54,8 @@ const Asu = () => {
 
         </div>
 
-        {/* {mobileDrawerOpen && (
+        {/*Interface MOBILE NAVBAR */}
+        {mobileDrawerOpen && (
           <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
               {navItems.map((item, index) => (
@@ -65,19 +64,17 @@ const Asu = () => {
                 </li>
               ))}
             </ul>
+
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
-                Sign In
-              </a>
-              <a
-                href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
-              >
-                Create an account
-              </a>
+              <button className="py-2 px-3 border rounded-md">
+                <Link to="/login">Sign In</Link>
+              </button>
+              <button className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800">
+                <Link to="/register">Sign Up</Link>
+              </button>
             </div>
           </div>
-        )} */}
+        )}
 
       </div>
     </nav>
