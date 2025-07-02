@@ -5,7 +5,7 @@ import FeatureSection from "./component/Feature.jsx";
 import Template from "./component/Template.jsx";
 import Pricing from "./component/Pricing.jsx";
 import Footer from "./component/Footer.jsx";
-
+import Testimonials from "./component/Testimonials.jsx";
 const App = () => {
     return (
         <>
@@ -15,6 +15,7 @@ const App = () => {
                 <FeatureSection />
                 <Template />
                 <Pricing />
+                <Testimonials />
                 <Footer />
             </div>
         </>

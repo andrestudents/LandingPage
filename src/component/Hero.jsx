@@ -34,7 +34,7 @@ const Hero = () => {
                     </div>
 
                     {/* VIDEO */}
-                    <div className="flex-1 w-full rotate-25">
+                    <div className="flex-1 w-full ">
                         <video
                             autoPlay
                             loop

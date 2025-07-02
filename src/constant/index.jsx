@@ -7,61 +7,45 @@ export const navItems = [
     { label: "Testimonials", href: "#testimonials" },
 ];
 
+
 export const features = [
     {
         icon: <BotMessageSquare />,
-        text: "Drag-and-Drop Interface",
+        text: "Editor Visual Interaktif",
         description:
-            "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+            "Susun elemen landing page dengan mudah menggunakan editor visual yang intuitif tanpa perlu keahlian teknis.",
     },
     {
         icon: <BotMessageSquare />,
-        text: "Drag-and-Drop Interface",
+        text: "Pengaturan Fleksibel",
         description:
-            "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+            "Atur informasi usaha, gambar produk, dan kontak hanya dengan beberapa klik sesuai kebutuhan bisnis lokalmu.",
     },
     {
         icon: <BotMessageSquare />,
-        text: "Drag-and-Drop Interface",
+        text: "Desain Responsif Otomatis",
         description:
-            "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+            "Landing page yang dibuat akan otomatis menyesuaikan tampilan di HP, tablet, maupun desktop.",
     },
     {
         icon: <BotMessageSquare />,
-        text: "Drag-and-Drop Interface",
+        text: "Tanpa Perlu Coding",
         description:
-            "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+            "Cukup isi form yang disediakan dan dapatkan landing page siap pakai tanpa satu baris kode pun.",
     },
     {
         icon: <BotMessageSquare />,
-        text: "Multi-Platform Compatibility",
+        text: "Kompatibel dengan Sosial Media",
         description:
-            "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+            "Bagikan link landing page langsung ke WhatsApp, Instagram, atau media sosial lain dalam sekali klik.",
     },
     {
         icon: <BotMessageSquare />,
-        text: "Built-in Templates",
+        text: "Template Siap Pakai",
         description:
-            "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+            "Pilih dari berbagai template yang dirancang khusus untuk usaha kuliner, jasa, atau produk lokal.",
     },
-    {
-        icon: <BotMessageSquare />,
-        text: "Real-Time Preview",
-        description:
-            "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
-    },
-    {
-        icon: <BotMessageSquare />,
-        text: "Collaboration Tools",
-        description:
-            "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-    },
-    {
-        icon: <BotMessageSquare />,
-        text: "Analytics Dashboard",
-        description:
-            "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
-    },
+
 ];
 
 export const pictures = [
@@ -120,30 +104,30 @@ export const pricings = [
         title: "Free",
         price: "$0",
         features: [
-            "Private board sharing",
-            "5 Gb Storage",
-            "Web Analytics",
-            "Private Mode",
+            "1 Halaman Landing Page",
+            "500MB Penyimpanan Gambar",
+            "Statistik Pengunjung Dasar",
+            "Link Share ke WhatsApp & IG",
         ],
     },
     {
         title: "Pro",
         price: "$10",
         features: [
-            "Private board sharing",
-            "10 Gb Storage",
-            "Web Analytics (Advance)",
-            "Private Mode",
+            "3 Halaman Landing Page",
+            "2GB Penyimpanan Gambar",
+            "Statistik Pengunjung Lengkap",
+            "Template Premium",
         ],
     },
     {
         title: "Enterprise",
         price: "$200",
         features: [
-            "Private board sharing",
-            "Unlimited Storage",
-            "High Performance Network",
-            "Private Mode",
+            "Halaman Tak Terbatas",
+            "Penyimpanan Tanpa Batas",
+            "Custom Domain (.com/.id)",
+            "Akses Admin & Kolaborasi Tim",
         ],
     },
 ];
@@ -171,3 +155,44 @@ export const communityLinks = [
     { href: "#", text: "Hackathons" },
     { href: "#", text: "Jobs" },
 ];
+
+export const testimonials = [
+    {
+        user: "John Doe",
+        company: "Stellar Solutions",
+        img: "/image/user1.jpg",
+        text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    },
+    {
+        user: "Jane Smith",
+        company: "Blue Horizon Technologies",
+        img: "/image/user2.jpg",
+        text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life.",
+    },
+    {
+        user: "David Johnson",
+        company: "Quantum Innovations",
+        img: "/image/user3.jpg",
+        text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    },
+    {
+        user: "Ronee Brown",
+        company: "Fusion Dynamics",
+        img: "/image/user4.jpg",
+        text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible.",
+    },
+    {
+        user: "Michael Wilson",
+        company: "Visionary Creations",
+        img: "/image/user5.jpg",
+        text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    },
+    {
+        user: "Emily Davis",
+        company: "Synergy Systems",
+        img: "/image/user6.jpg",
+        text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    },
+];
+
+

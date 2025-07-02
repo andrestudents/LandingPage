@@ -5,8 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 const Pricing = () => {
 
     return (
-        <section
-            id="pricing">
+        <section id="pricing">
 
             <div className="mt-30">
 

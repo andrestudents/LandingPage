@@ -1,4 +1,13 @@
 import { resourcesLinks, platformLinks, communityLinks } from "../constant";
+import { FaXTwitter } from "react-icons/fa6";
+import {
+    FaInstagram,
+    FaWhatsapp,
+    FaFacebookF,
+    FaLinkedinIn,
+} from "react-icons/fa";
+import FooterLinks from "./Footerlinks";
+
 const Footer = () => {
     return (
         <footer className="mt-20 border-t py-10 border-neutral-700">
@@ -48,6 +57,49 @@ const Footer = () => {
                         ))}
                     </ul>
                 </div>
+            </div>
+            <br />
+
+            <div className="min-h-[100px] flex flex-col justify-center gap-6 text-center text-lg text-gray-300 font-mono mb-10 border-t border-neutral-700">
+                <div className="mt-10 flex gap-6 p-4 justify-center text-white">
+                    <a
+                        href="https://twitter.com"
+                        className="border p-2 text-2xl rounded-2xl hover:-translate-y-2 transition-all bg-black text-white"
+                        target="_blank"
+                    >
+                        <FaXTwitter />
+                    </a>
+                    <a
+                        href="https://instagram.com"
+                        className="border p-2 text-2xl rounded-2xl hover:-translate-y-2 transition-all bg-gradient-to-r from-yellow-400 via-red-500 to-purple-600 text-white"
+                        target="_blank"
+                    >
+                        <FaInstagram />
+                    </a>
+                    <a
+                        href="https://whatsapp.com"
+                        className="border p-2 text-2xl rounded-2xl hover:-translate-y-2 transition-all bg-green-500 text-white"
+                        target="_blank"
+                    >
+                        <FaWhatsapp />
+                    </a>
+                    <a
+                        href="https://facebook.com"
+                        className="border p-2 text-2xl rounded-2xl hover:-translate-y-2 transition-all bg-blue-600 text-white"
+                        target="_blank"
+                    >
+                        <FaFacebookF />
+                    </a>
+                    <a
+                        href="https://linkedin.com"
+                        className="border p-2 text-2xl rounded-2xl hover:-translate-y-2 transition-all bg-blue-800 text-white"
+                        target="_blank"
+                    >
+                        <FaLinkedinIn />
+                    </a>
+                </div>
+                <FooterLinks />
+                {/* <p>@ 2025 GENDRUK. All rights reserved.</p> */}
             </div>
         </footer>
     );
